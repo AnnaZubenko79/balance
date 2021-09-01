@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YogaStudio Balance</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+    <div class="container">
+        <nav class="header__menu">
+            <button class="header__btn" type="submit">
+                <span class="header__line"></span>
+                <span class="header__line"></span>
+                <span class="header__line"></span>
+            </button>
+            <a class="logo" href="#">
+                <img class="logo__img" src="../images/logo.svg" alt="logo images">
+            </a>
+            <div class="header__wrapper">
+                <ul class="menu">
+                    <li class="menu__list">
+                        <a class="menu__link menu__link--active" href="#about">
+                            about
+                        </a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="#classes">
+                            classes
+                        </a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="#team">
+                            team
+                        </a>
+                    </li>
+                    <li class="menu__list">
+                        <a class="menu__link" href="#contacts">
+                            get in touch
+                        </a>
+                    </li>
+                </ul>
+                <div class="lang">
+                    <a class="lang__link" href="#">ru</a>
+                    <a class="lang__link lang__link--active" href="#">en</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+        <main class="main">
+            <section class="about" id="about">
+    <div class="container">
+        <div class="about__top">
+            <div class="about__left">
+                <a href="idea.html">My idea</a>
+                <span class="about__subtitle">balance</span>
+                <h1 class="about__title">yoga studio</h1>
+                <div class="about__text">
+                    <p>
+                        We are an independent wellness studio with a small and committed team of instructors. We are
+                        dedicated to share with you the benefits of our well-being classes useful for your life
+                        improvement.
+                    </p>
+                </div>
+            </div>
+            <div class="about__right">
+                <img class="about__images" src="images/about-bg.png" alt="yoga-girl">
+            </div>
+            <span class="about__descr">
+                clear you mind and find balance by us
+            </span>
+        </div>
+        <div class="about__bottom">
+            <ul class="about__list">
+                <li class="about__item">
+                    <span class="about__subinfo">where</span>
+                    <span class="about__info">based in Ukraine</span>
+                </li>
+                <li class="about__item">
+                    <span class="about__subinfo">how</span>
+                    <span class="about__info">both online and studio practices</span>
+                </li>
+                <li class="about__item">
+                    <span class="about__subinfo">when</span>
+                    <span class="about__info">every day</span>
+                </li>
+            </ul>
+            <a class="btn-next" href="#classes">
+                explore classes
+                <svg>
+                    <use xlink:href='images/sprite.svg#arrow-next'></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+            <section class="classes" id="classes">
+    <div class="container">
+        <div class="classes__wrapper">
+            <div class="classes-left">
+                <div class="classes-left__top">
+                    <form class="classes__form" action="#">
+                        <label class="classes__label classes__label--first">
+                            <input class="classes__input" type="radio" name="condition" checked>
+                            <span class="classes__condition">for starters</span>
+                        </label>
+                        <label class="classes__label">
+                            <input class="classes__input" type="radio" name="condition">
+                            <span class="classes__condition">advanced</span>
+                        </label>
+                    </form>
+                    <ul class="classes-left__list">
+                        <li class="classes-left__item subtitle">
+                            <a class="classes-left__link" href="#tab-1">
+                                Vinyasa yoga
+                            </a>
+                        </li>
+                        <li class="classes-left__item  subtitle">
+                            <a class="classes-left__link classes-left__link--active" href="#tab-2">
+                                Hatha yoga
+                            </a>
+                        </li>
+                        <li class="classes-left__item  subtitle">
+                            <a class="classes-left__link" href="#tab-3">
+                                yoga therapy
+                            </a>
+                        </li>
+                        <li class="classes-left__item  subtitle">
+                            <a class="classes-left__link" href="#tab-4">
+                                breathing practices
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="classes-right">
+                <div class="classes-right__top">
+                    <form class="classes__form classes__form--bottom" action="#">
+                        <label class="classes__label classes__label--first">
+                            <input class="classes__input" type="radio" name="condition" checked>
+                            <span class="classes__condition">online</span>
+                        </label>
+                        <label class="classes__label">
+                            <input class="classes__input" type="radio" name="condition">
+                            <span class="classes__condition">offline</span>
+                        </label>
+                    </form>
+                    <div class="classes-right__location">
+                        <h2 class="classes-right__descript subtitle">
+                            Location
+                        </h2>
+                        <address class="classes-right__address">
+                            Kyiv, Tereschenkivska st, 15
+                        </address>
+                    </div>
+                    <div class="shedule">
+                        <h2 class="shedule__title subtitle">
+                            shedule
+                        </h2>
+                        <ul class="shedule__data" id="tab-1">
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">mon</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">tue</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">thu</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">fri</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sun</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">15:00</time>
+                            </li>
+                        </ul>
+                        <ul class="shedule__data shedule__data--active" id="tab-2">
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">mon</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">tue</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">wed</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">thu</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">fri</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sat</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sun</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">15:00</time>
+                            </li>
+                        </ul>
+                        <ul class="shedule__data" id="tab-3">
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">mon</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">tue</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">wed</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">thu</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">fri</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sat</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sun</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">15:00</time>
+                            </li>
+                        </ul>
+                        <ul class="shedule__data" id="tab-4">
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">mon</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">wed</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">18:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">thu</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sat</span>
+                                <time class="shedule__time">08:00</time>
+                                <time class="shedule__time">20:00</time>
+                            </li>
+                            <li class="shedule__item">
+                                <span class="shedule__weekdays">sun</span>
+                                <time class="shedule__time">10:00</time>
+                                <time class="shedule__time">15:00</time>
+                            </li>
+                        </ul>
+                        <span class="shedule__footnote">
+                            * Information is for group practices. Ask manager about individual.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="classes-bottom">
+            <img class="classes-bottom__images" src="../images/classes-bg.png" alt="decor images">
+            <a class="classes-bottom__btn" href="#">
+                sign up
+            </a>
+            <a class="btn-next" href="#team">
+                explore team
+                <svg>
+                    <use xlink:href='images/sprite.svg#arrow-next'></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+            <section class="team" id="team">
+    <div class="container">
+        <div class="team__inner">
+            <div class="team__wrapper">
+                <div class="team__bg">
+                    <img class="team__images" src="images/team-bg.jpg" alt="background foto">
+                </div>
+                <div class="team__teacher">
+                    <h2 class="team__title subtitle">
+                        our teachers
+                    </h2>
+                    <ul class="team__list">
+                        <li class="team__names">
+                            <a class="team__names-title names-title team__names-title--active" href="#irina">
+                                irina
+                            </a>
+                        </li>
+                        <li class="team__names">
+                            <a class="team__names-title names-title" href="#kristen">
+                                kristen
+                            </a>
+                        </li>
+                        <li class="team__names">
+                            <a class="team__names-title names-title" href="#michael">
+                                michael
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="team__description team__description--active" id="irina">
+                        <blockquote class="team__blockquote">
+                            I believe yoga is a very powerful practice, that works not only with our body but also with
+                            our
+                            spirit, mind and soul. Conquering our small limits on the mat we are achieving beyond our
+                            limits
+                            in real life, by making our body and mind more flexible and strong, balanced and solid.
+                        </blockquote>
+                        <div class="team__experience">
+                            <h3 class="team__experience-title names-title">
+                                irina’s experience
+                            </h3>
+                            <ul class="team__description-list">
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2016</span>
+                                    <div class="team__description-text">
+                                        <p>EMS, 3 level training 30-hrs Certification (Dubai,UAE)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2018</span>
+                                    <div class="team__description-text">
+                                        <p>Ashanga, Vinyasa and Hatha Yoga Teacher, 200-hrs Certification, Yogi Chetan
+                                            Manesh (Director of Teaching, Association for Yoga & Meditation, Rishikesh,
+                                            India)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2019</span>
+                                    <div class="team__description-text">
+                                        <p>Fitness Instructor Certification Training Courses 200-hrs (Kanuhura Maldives
+                                            Lhaviyani Atoll, Maldives)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team__description" id="kristen">
+                        <blockquote class="team__blockquote">
+                            I believe yoga is a very powerful practice, that works not only with our body but also with
+                            our
+                            spirit, mind and soul. Conquering our small limits on the mat we are achieving beyond our
+                            limits
+                            in real life, by making our body and mind more flexible and strong, balanced and solid.
+                        </blockquote>
+                        <div class="team__experience">
+                            <h3 class="team__experience-title names-title">
+                                kristen’s experience
+                            </h3>
+                            <ul class="team__description-list">
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2016</span>
+                                    <div class="team__description-text">
+                                        <p>EMS, 3 level training 30-hrs Certification (Dubai,UAE)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2018</span>
+                                    <div class="team__description-text">
+                                        <p>Ashanga, Vinyasa and Hatha Yoga Teacher, 200-hrs Certification, Yogi Chetan
+                                            Manesh (Director of Teaching, Association for Yoga & Meditation, Rishikesh,
+                                            India)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2019</span>
+                                    <div class="team__description-text">
+                                        <p>Fitness Instructor Certification Training Courses 200-hrs (Kanuhura Maldives
+                                            Lhaviyani Atoll, Maldives)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="team__description" id="michael">
+                        <blockquote class="team__blockquote">
+                            I believe yoga is a very powerful practice, that works not only with our body but also with
+                            our
+                            spirit, mind and soul. Conquering our small limits on the mat we are achieving beyond our
+                            limits
+                            in real life, by making our body and mind more flexible and strong, balanced and solid.
+                        </blockquote>
+                        <div class="team__experience">
+                            <h3 class="team__experience-title names-title">
+                                michael’s experience
+                            </h3>
+                            <ul class="team__description-list">
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2016</span>
+                                    <div class="team__description-text">
+                                        <p>EMS, 3 level training 30-hrs Certification (Dubai,UAE)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2018</span>
+                                    <div class="team__description-text">
+                                        <p>Ashanga, Vinyasa and Hatha Yoga Teacher, 200-hrs Certification, Yogi Chetan
+                                            Manesh (Director of Teaching, Association for Yoga & Meditation, Rishikesh,
+                                            India)</p>
+                                    </div>
+                                </li>
+                                <li class="team__description-item">
+                                    <span class="team__description-date">2019</span>
+                                    <div class="team__description-text">
+                                        <p>Fitness Instructor Certification Training Courses 200-hrs (Kanuhura Maldives
+                                            Lhaviyani Atoll, Maldives)</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team__bottom">
+                <a class="btn-next" href="#contacts">
+                    contact
+                    <svg>
+                        <use xlink:href='images/sprite.svg#arrow-next'></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="contacts" id="contacts">
+    <div class="container">
+        <div class="contacts__inner">
+            <div class="contacts__wrapper">
+                <div class="contacts__map">
+                    <img class="contacts__images" src="images/map-img.jpg" alt="map">
+                </div>
+                <div class="contacts__info">
+                    <h2 class="contacts__title subtitle">
+                        get in touch
+                    </h2>
+                    <address class="contacts__address">
+                        <div class="contacts__descr">
+                            <span class="contacts__data"> call us</span>
+                            <div class="contacts__phone">
+                                <a class="contacts__num" href="tel:+380673085997">+38 067 308 59 97</a>
+                                <a class="contacts__num" href="tel:+380673085997">+38 067 308 59 97</a>
+                            </div>
+                        </div>
+                        <div class="contacts__descr">
+                            <span class="contacts__data">
+                                write us</span>
+                            <a class="contacts__mail" href="mailto:balancestudio@gmail.com">balancestudio@gmail.com</a>
+                        </div>
+                        <div class="contacts__descr">
+                            <span class="contacts__data">
+                                visit us</span>
+                            <span class="contacts__visit">
+                                Kyiv, Tereschenkivska st, 15
+                            </span>
+                        </div>
+                    </address>
+                </div>
+            </div>
+            <div class="contacts__bottom">
+                <a class="contacts__bottom-btn" href="#">
+                    get in touch
+                </a>
+                <a class="btn-next contacts__btn" href="#about">
+                    up
+                    <svg>
+                        <use xlink:href='images/sprite.svg#arrow-next'></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+        </main>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
